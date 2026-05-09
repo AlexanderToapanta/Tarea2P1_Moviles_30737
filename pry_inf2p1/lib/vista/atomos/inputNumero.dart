@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class InputNumber extends StatelessWidget {
-  String text;
+  final String text;
   final TextEditingController controller;
   InputNumber({super.key, required this.text, required this.controller});
   @override

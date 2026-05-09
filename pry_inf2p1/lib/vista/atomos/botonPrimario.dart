@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 class PrimaryButton extends StatelessWidget {
-  String text;
+  final String text;
   final VoidCallback onPressed;
   PrimaryButton({super.key, required this.text, required this.onPressed});
   @override
