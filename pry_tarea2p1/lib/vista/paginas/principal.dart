@@ -19,7 +19,7 @@ class MainView extends StatelessWidget {
         child: Column(
           children: [
             const Text(
-              'Tarea 2.1',
+              'Informe 1.2',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 20),
