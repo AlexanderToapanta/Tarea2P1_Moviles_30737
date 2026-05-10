@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'vista/paginas/principal.dart';
 import 'vista/paginas/vistaSalarioProfesor.dart';
 import 'vista/paginas/vista_articulos_promocion.dart';
+import 'vista/paginas/vista_ventas.dart';
 
 void main() {
   runApp(const MiApp());
@@ -18,7 +19,7 @@ class MiApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const MainView(),
-        '/problema1': (context) => const Scaffold(body: Center(child: Text('Problema 1'))),
+        '/problema1': (context) => VistaVentas(),
         // Rutas definidas en MenuEjercicios (Pendientes de implementación)
         '/ejercicio4.1': (context) => const VistaSalarioProfesor(),
         '/ejercicio4.2': (context) => const VistaArticulosPromocion(),
